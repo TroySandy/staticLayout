@@ -1,0 +1,28 @@
+/* body {
+    background-image: url("../staticLayout/assets/star-wars-backgrounds-25.jpeg");
+    background-repeat: repeat-y;
+    background-position: center;
+
+} */
+
+ul {
+    list-style: none;
+}
+
+.navBar {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 1080px;
+    z-index: 10;
+    display: flex;
+    
+
+}
+.navBar div{
+    background-color: white;
+   display: flex;
+   margin: auto;
+
+}
