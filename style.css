@@ -1,16 +1,13 @@
-/* body {
-    background-image: url("../staticLayout/assets/star-wars-backgrounds-25.jpeg");
-    background-repeat: repeat-y;
-    background-position: center;
-
-} */
+body {
+ font-family: Helvetica, Arial, sans-serif;  
+}
 
 ul {
     list-style: none;
 }
 
-.navBar {
-    background: transparent;
+nav {
+    background: black;
     position: fixed;
     top: 0;
     margin: auto;
@@ -18,6 +15,18 @@ ul {
     z-index: 10;
     display: flex;
     
+
+}
+#socials{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#searchBar{
+    position: fixed;
+    top: 0;
+    right: 0;
 
 }
 .navBar div{
