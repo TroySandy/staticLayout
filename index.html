@@ -1,347 +1,69 @@
 <!DOCTYPE html>
-<!--
-    THIS IS NOT THE REAL STARWARS.COM SITE!!!!   THIS IS A RECREATION FOR A CLASS PROJECT!! PLEASE DON"T FORCE CHOKE ME!!!!
-    
-    Here goes nothing!!!  I wish I knew all this back in the myspace days!!
--->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StarWars.com | The Official Star Wars Website</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="navBar">
-      <div id="socials">
-        <ul>
-          <li id="facebook"></li>
-          <li id="insta"></li>
-          <li id="tumblr"></li>
-          <li id="twitter"></li>
-          <li id="youtube"></li>
-          <li id="kids"></li>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kast is Watch Parties Made Easy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="topBar">
+    <img src="staticAssests/kastLogo.svg" alt="kastLogo" id="kastLogo" />
+    <ul>
+      <li>
+        <p>About</p>
+      </li>
+      <li>
+        <p>Help</p>
+      </li>
+      <li>
+        <p>Community</p>
+      </li>
+      <li>
+        <a href="https://www.kastapp.co/subscriptions.html">Premium</a>
+      </li>
+    </ul>
+    <a href="https://w.kast.live/" target="blank" class="openButton" class="whiteButton">OPEN KAST</a>
+  </div>
+  <div id="prpGeo">
+    <div id="laptopSection">
+      <img src="staticAssests/laptop-large-p-1080.png" alt="" class="laptopPicture" />
+      <div id="textBox1">
+        <h1>Watch parties made easy.</h1>
+        <p>Watch <b>whatever you want</b> with friends online: Movies, TV shows, you name it.  Share your screen and camera or launch content directly from Kast TV in your watch parties. Join millions of kasters today!</p>
       </div>
-      <div id="starWarsImg"></div>
+      <a href="https://w.kast.live/" target="blank" class="openButton" class="orangeButton">OPEN KAST</a>
 
-      <div id="searchBar">
-        <ul id="searchTop">
-          <li id="search">
-            <p>Search Star Wars</p>
-          </li>
-          <li id="magGlass"></li>
-        </ul>
-        <ul id="searchBottom">
-          <li id="logIn">
-            <p>LOG IN</p>
-          </li>
-          <li id="hashes">
-            <p>//</p>
-          </li>
-          <li id="signUp">
-            <p>SIGN UP</p>
-          </li>
-        </ul>
-      </div>
+    </div>
+  </div>
+<div id="whiteSection">
+  <p>Featured in</p>
+  <ul id="logos">
+    <li><img src="staticAssests/wired-logo.svg" alt=""></li>
+    <li><img src="staticAssests/nerdist-logo.svg" alt=""></li>
+    <li><img src="staticAssests/yahoo-finance-logo.svg" alt=""></li>
+    <li><img src="staticAssests/evening-standard-logo.svg" alt=""></li>
+    <li><img src="staticAssests/bbc-logo.svg" alt=""></li>
+    <li><img src="staticAssests/daily-mail-logo.svg" alt=""></li>
+  </ul>
+  <p><em>"Kast has probably never been more relevent - or necessary - than it is right now."</em></p>
+</div>
+<div is="greenSection">
+  <h1>What is Kast?</h1>
+  <p>Looking for a place ot watch movies, play, and hang out with friends? Hop onto kast and start sharing experiences real-time!</p>
+  <p>up to 20 people can share their screen or camera and another 100 can watch in a party.  And with Kast TV, you can now stream directly from the cloud.</p>
+  <a href="https://w.kast.live/" target="blank" class="openButton" class="orangeButton">OPEN KAST</a>
+</div>
+<div id="whitesection2">
+  <h1>Try Kast TV</h1>
+  <p>Watch curated movies and browse content in your parties with friends, streamed directly from the cloud.  YOur sharded TV in your virtual living room.</p>
+  <iframe title="vimeo-player" src="https://player.vimeo.com/video/451294380" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  <p id="vidText">Try Kast Now</p>
+  <a href="https://w.kast.live/" target="blank" class="openButton" class="orangeButton">OPEN KAST</a>
+  <a href="about.html" id="learnMore">Learn More</a>
+</div>
 
-      <div id="navLinks">
-        <ul id="internalLinks">
-          <li id="news">
-            <p>NEWS + BLOG</p>
-          </li>
-          <li id="video">
-            <p>VIDEO</p>
-          </li>
-          <li id="films">
-            <p>FILMS</p>
-          </li>
-          <li id="series">
-            <p>SERIES</p>
-          </li>
-          <li id="interactive">
-            <p>INTERACTIVE</p>
-          </li>
-          <li id="community">
-            <p>COMMUNITY</p>
-          </li>
-          <li id="databank">
-            <p>DATABANK</p>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div id="topBuffer"></div>
-    <div id="rotatingPicBlock">
-      <div id="disneyBanner">
-        <p>STAR WARS STREAMING ANYTIME ON <img DISNEY PLUS LOGO /></p>
-      </div>
-      <div id="iwdPic">
-        <p><b>STARWARS.COM CELEBRATES INTERNATIONAL WOMEN'S DAY</b></p>
-        <p>What Do the Women of <i>Star Wars</i> Mean to You?</p>
-        <div class="whiteButtom">
-          <p>READ MORE</p>
-        </div>
-        <div class="greenButton">
-          <p>GET INVOLVED</p>
-        </div>
-      </div>
-      <div id="cloneSoldiers">
-        <p><b>FROM A CERTAIN POINT OF VIEW</b></p>
-        <p>
-          What's the most memorable story arc in
-          <i>Star Wars: The Clone Wars</i>?
-        </p>
-        <div class="blueButton">
-          <p>READ MORE</p>
-        </div>
-      </div>
-      <div id="wookie">
-        <p>
-          <b
-            >A YOUNG OBI-WAN KENOBI SURRENDERS IN IDW'S
-            <i>STAR WARS ADVENTURES</i> #4 - EXCLUSIVE PREVIEW</b
-          >
-        </p>
-        <p>But things arn't what they seem...</p>
-        <div class="greenButton">
-          <p>READ MORE</p>
-        </div>
-      </div>
-      <div id="badBatch">
-        <p>
-          <i>Star Wars: The Bad Batch</i> will come to Disney+ on May the 4th.
-        </p>
-        <div id="badBatchLogo"></div>
-        <div class="redButton">
-          <p>READ MORE</p>
-        </div>
-        <div class="blackButton">
-          <p>EXPLORE</p>
-        </div>
-      </div>
-      <div class="rightNavButton"></div>
-      <div class="leftNavButton"></div>
-      <div id="internalLinks">
-        <ul>
-          <li>
-            <p>STARWARS.COM CELEBRATES INTERNATIONAL</p>
-          </li>
-          <li>
-            <p>FROM A CERTIAN POINT OF VIEW</p>
-          </li>
-          <li>
-            <p>STAR WARS ADVENTURES #4 - EXCLUSIVE PREVIEW</p>
-          </li>
-          <li>
-            <p>STARWARS: THE BAD BATCH ON DISNEY+</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="staticPicBlock" id="theHighRepublic">
-      <div class="fade"></div>
-      <div class="topTextBox firstBloc">
-        <div id="highRepublicImg"></div>
-        <div>
-          <p>A new era of <i>Star Wars</i> is here.</p>
-        </div>
-        <div class="yellowButton">
-          <p>EXPLORE</p>
-        </div>
-      </div>
-      <div class="rightComicBook highRepublic"></div>
-      <div class="leftComicBook highRepublic"></div>
-      <div class="VideoBoxes firstBloc">
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div>
-    <div class="staticPicBlock" id="mandalorian">
-      <div class="fade"></div>
-      <div class="topTextBox mandoInfo">
-        <div id="mandoBanner"></div>
-        <div>
-          <p>All episodes now streaming, only on Disney+.</p>
-        </div>
-        <div class="blueButton">
-          <p>STREAM NOW</p>
-        </div>
-        <div class="blackButton">
-          <p>EXPLORE</p>
-        </div>
-      </div>
-      <div class="rightComicBook mandoInfo"></div>
-      <div class="leftComicBook mandoInfo"></div>
-      <div class="VideoBoxes mandoInfo">
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div>
-  </body>
+
+</body>
 </html>
