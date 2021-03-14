@@ -21,19 +21,19 @@ li {
 #topBar {
   padding: 5px;
   color: white;
-  width: 100%;
+  width: 95%;
   background-color: transparent;
   position: fixed;
   top: 0%;
   margin: auto;
   display: flex;
   font-size: 14px;
-  z-index: 20;
+  z-index: 2;
   background-attachment: scroll;
 }
 
 #internalLinks {
-    
+
 }
 
 #kastLogo {
@@ -98,29 +98,62 @@ a:active {
 
 #prpGeo {
   height: 800px;
+  width: fit-content;
   background-image: url(staticAssests/gradient-violet-bg.jpg);
   display: block;
   margin: 0;
   text-align: center;
 }
+
 .blankBox {
   height: 150px;
 }
+
 .laptopPicture {
   max-width: 600px;
   margin: auto;
 }
+
 #textBox1 {
     color: white;
-
   margin: auto;
   width: 30%;
-  padding: 10px;
-
+ padding: 10px;
+ 
+}
+#whiteSection{
+text-align: center;
+  margin: auto;
   
+}
+#feature{
+  font-size: 18px;
+  color: #434146;
+}
+
+#logos{
+  display: flex;
+  margin: auto;
 }
 
 
-#logos{
-    display: flex;
+  #whiteSectionText{
+
+  }
+
+#greenSection {
+  background-image: url(staticAssests/green-bg.jpg);
+  height: 475px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-right: 25%;
+  padding-left: 25%;
+
+
+}
+
+#whiteSection2 {
+  margin: auto;
+  text-align: center;
 }
