@@ -1,69 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kast is Watch Parties Made Easy</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div id="topBar">
-    <img src="staticAssests/kastLogo.svg" alt="kastLogo" id="kastLogo" />
-    <ul>
-      <li>
-        <p>About</p>
-      </li>
-      <li>
-        <p>Help</p>
-      </li>
-      <li>
-        <p>Community</p>
-      </li>
-      <li>
-        <a href="https://www.kastapp.co/subscriptions.html">Premium</a>
-      </li>
-    </ul>
-    <a href="https://w.kast.live/" target="blank" class="openButton" class="whiteButton">OPEN KAST</a>
-  </div>
-  <div id="prpGeo">
-    <div id="laptopSection">
-      <img src="staticAssests/laptop-large-p-1080.png" alt="" class="laptopPicture" />
-      <div id="textBox1">
-        <h1>Watch parties made easy.</h1>
-        <p>Watch <b>whatever you want</b> with friends online: Movies, TV shows, you name it.  Share your screen and camera or launch content directly from Kast TV in your watch parties. Join millions of kasters today!</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kast is Watch Parties Made Easy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="topBar">
+      <a href="index.html">
+        <img src="staticAssests/kastLogo.svg" 
+             alt="blank" 
+             id="kastLogo" />
+      </a>
+      <ul id="internalLinks">
+        <li>
+          <p>About</p>
+          <div class="dropdown">
+            <button class="dropbtn"><img src="staticAssests/down-chevron.svg" alt="downChevron" class="downChevron" /></button>
+            <div class="dropdown-content">
+              <a href="#">What is Kast?</a>
+              <a href="#">Kast TV</a>
+              <a href="#">Blog</a>
+              <a href="#">Press Release</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <p>Help</p>
+          <div class="dropdown">
+            <button class="dropbtn"><img src="staticAssests/down-chevron.svg" alt="downChevron" class="downChevron" /></button>
+            <div class="dropdown-content">
+              <a href="#">Contact Support</a>
+              <a href="#">FAQ'S</a>
+              <a href="#">Get Kast</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <p>Community</p>
+          <div class="dropdown">
+            <button class="dropbtn"><img src="staticAssests/down-chevron.svg" alt="downChevron" class="downChevron" /></button>
+            <div class="dropdown-content">
+              <a href="#">Community Guidelines</a>
+              <a href="#">Founders Hall of Fame</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div id="navLinks">
+        <a href="https://www.kastapp.co/subscriptions.html" 
+           target="blank"
+          >Premium</a
+        >
+        <a
+          href="https://w.kast.live/"
+          target="blank"
+          class="openButton"
+          class="whiteButton"
+          >OPEN KAST</a
+        >
       </div>
-      <a href="https://w.kast.live/" target="blank" class="openButton" class="orangeButton">OPEN KAST</a>
-
     </div>
-  </div>
-<div id="whiteSection">
-  <p>Featured in</p>
-  <ul id="logos">
-    <li><img src="staticAssests/wired-logo.svg" alt=""></li>
-    <li><img src="staticAssests/nerdist-logo.svg" alt=""></li>
-    <li><img src="staticAssests/yahoo-finance-logo.svg" alt=""></li>
-    <li><img src="staticAssests/evening-standard-logo.svg" alt=""></li>
-    <li><img src="staticAssests/bbc-logo.svg" alt=""></li>
-    <li><img src="staticAssests/daily-mail-logo.svg" alt=""></li>
-  </ul>
-  <p><em>"Kast has probably never been more relevent - or necessary - than it is right now."</em></p>
-</div>
-<div is="greenSection">
-  <h1>What is Kast?</h1>
-  <p>Looking for a place ot watch movies, play, and hang out with friends? Hop onto kast and start sharing experiences real-time!</p>
-  <p>up to 20 people can share their screen or camera and another 100 can watch in a party.  And with Kast TV, you can now stream directly from the cloud.</p>
-  <a href="https://w.kast.live/" target="blank" class="openButton" class="orangeButton">OPEN KAST</a>
-</div>
-<div id="whitesection2">
-  <h1>Try Kast TV</h1>
-  <p>Watch curated movies and browse content in your parties with friends, streamed directly from the cloud.  YOur sharded TV in your virtual living room.</p>
-  <iframe title="vimeo-player" src="https://player.vimeo.com/video/451294380" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-  <p id="vidText">Try Kast Now</p>
-  <a href="https://w.kast.live/" target="blank" class="openButton" class="orangeButton">OPEN KAST</a>
-  <a href="about.html" id="learnMore">Learn More</a>
-</div>
-
-
-</body>
+    <div id="prpGeo">
+      <div class="blankBox"></div>
+      <div id="laptopSection">
+        <div class="laptopPicture">
+        <img
+          src="staticAssests/laptop-large-p-1080.png"
+          alt=""
+          class="laptopPicture"
+          />
+        </div>
+        <div id="textBox1">
+          <h1>Watch parties made easy.</h1>
+          <p>
+            Watch <b>whatever you want</b> with friends online: Movies, TV
+            shows, you name it. Share your screen and camera or launch content
+            directly from Kast TV in your watch parties. Join millions of
+            kasters today!
+          </p>
+        </div>
+        <div class="orangeButton">
+        <a
+          href="https://w.kast.live/"
+          target="blank"
+          class="openButton"
+          class="orangeButton"
+          >OPEN KAST</a
+        >
+      </div>
+      </div>
+    </div>
+    <div id="whiteSection">
+      <p>Featured in</p>
+      <ul id="logos">
+        <li><img src="staticAssests/wired-logo.svg" alt="" /></li>
+        <li><img src="staticAssests/nerdist-logo.svg" alt="" /></li>
+        <li><img src="staticAssests/yahoo-finance-logo.svg" alt="" /></li>
+        <li><img src="staticAssests/evening-standard-logo.svg" alt="" /></li>
+        <li><img src="staticAssests/bbc-logo.svg" alt="" /></li>
+        <li><img src="staticAssests/daily-mail-logo.svg" alt="" /></li>
+      </ul>
+      <p>
+        <em
+          >"Kast has probably never been more relevent - or necessary - than it
+          is right now."</em
+        >
+      </p>
+    </div>
+    <div is="greenSection">
+      <h1>What is Kast?</h1>
+      <p>
+        Looking for a place ot watch movies, play, and hang out with friends?
+        Hop onto kast and start sharing experiences real-time!
+      </p>
+      <p>
+        up to 20 people can share their screen or camera and another 100 can
+        watch in a party. And with Kast TV, you can now stream directly from the
+        cloud.
+      </p>
+      <a
+        href="https://w.kast.live/"
+        target="blank"
+        class="openButton"
+        class="orangeButton"
+        >OPEN KAST</a
+      >
+    </div>
+    <div id="whitesection2">
+      <h1>Try Kast TV</h1>
+      <p>
+        Watch curated movies and browse content in your parties with friends,
+        streamed directly from the cloud. YOur sharded TV in your virtual living
+        room.
+      </p>
+      <iframe
+        title="vimeo-player"
+        src="https://player.vimeo.com/video/451294380"
+        width="640"
+        height="360"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <p id="vidText">Try Kast Now</p>
+      <a
+        href="https://w.kast.live/"
+        target="blank"
+        class="openButton"
+        class="orangeButton"
+        >OPEN KAST</a
+      >
+      <a href="about.html" id="learnMore">Learn More</a>
+    </div>
+  </body>
 </html>
