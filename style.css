@@ -38,10 +38,9 @@ p {
   top: 0%;
   margin: auto;
   display: flex;
-  font-size: 24px;
-  font-style: bold;
   z-index: 1;
 }
+
 #topBar p {
   font-size: 12pt;
 }
@@ -178,7 +177,7 @@ a:active {
   justify-content: center;
 }
 
-#greenSection {
+.greenSection {
   background-image: url(staticAssests/green-bg.jpg);
   height: 600px;
   width: 100%;
