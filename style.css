@@ -21,8 +21,8 @@ li {
 #topBar {
   padding: 5px;
   color: white;
-  width: 95%;
-  background-color: transparent;
+  width: 100%;
+  background-color: rgba(170, 170, 170, 0.5);
   position: fixed;
   top: 0%;
   margin: auto;
@@ -144,12 +144,15 @@ a:active {
   font-size: 18px;
   color: #434146;
 }
-
-#logos {
-  display: flex;
-
-  padding: 0;
+#logoGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 80px 140px;
+  width: 80%;
   margin: auto;
+}
+
+.logoGridItem {
 }
 
 #greenSection {
@@ -173,11 +176,19 @@ a:active {
   border: none;
   padding: 10px;
   border-radius: 5px;
+  transition-property: ;
+  /* transform: scale(1.1, 1.1); */
 }
-
+/* .orangeButton:hover{
+  background-color: white;
+} */
 .clearButton {
   background-color: transparent;
   border: 2px white solid;
   padding: 5px;
   border-radius: 5px;
+  transition: 0.3s;
 }
+/* .clearButton:hover{
+  transform: scale(1.1, 1.1);
+} */
