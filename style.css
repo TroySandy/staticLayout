@@ -1,6 +1,5 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   height: max-content;
   width: 100%;
   margin: 0;
@@ -18,7 +17,7 @@ li {
   margin: auto;
 }
 
-h1{
+h1 {
   font-size: 40pt;
 }
 
@@ -26,31 +25,30 @@ h2 {
   font-size: 20pt;
 }
 
-p{
+p {
   font-size: 18pt;
 }
 
 #topBar {
   padding: 5px;
   color: white;
- max-width: 1800px;
+  width: 100%;
   background-color: rgba(85, 121, 119, 0.55);
   position: sticky;
   top: 0%;
   margin: auto;
   display: flex;
-  font-size: 16px;
+  font-size: 24px;
   font-style: bold;
   z-index: 1;
 }
-#topBar p{
+#topBar p {
   font-size: 12pt;
 }
 
 #internalLinks {
   position: relative;
   float: right;
-  
   margin-right: 5px;
   padding: 5px 0px 0px 0px;
 }
@@ -130,7 +128,6 @@ a:active {
   height: 900px;
   width: 100%;
   background-image: url(staticAssests/gradient-violet-bg.jpg);
-  background-repeat: no-repeat;
   display: block;
   margin-top: -80px;
   text-align: center;
@@ -157,11 +154,9 @@ a:active {
   padding: 10px;
 }
 
-
 #whiteSection {
   text-align: center;
   margin: auto;
-  
 }
 
 #feature {
@@ -180,7 +175,6 @@ a:active {
 
 #greenSection {
   background-image: url(staticAssests/green-bg.jpg);
-  background-repeat: no-repeat;
   height: 600px;
   width: 100%;
 }
@@ -198,10 +192,13 @@ a:active {
 .orangeButton {
   background-color: orange;
   border: none;
+  width: fit-content;
   padding: 10px;
   border-radius: 5px;
   font-size: 18pt;
   color: white;
+  display: flex;
+  margin: auto;
 }
 
 .orangeButton:hover {
@@ -209,7 +206,7 @@ a:active {
 }
 
 .clearButton:hover {
-  font-size: 20pt;
+  font-size: 12pt;
 }
 
 .clearButton {
@@ -218,17 +215,11 @@ a:active {
   padding: 5px;
   border-radius: 2px;
   font-size: 10pt;
-  /* transition: 0.3s; */
+  
 }
-
-/* .clearButton:hover{
-  transform: scale(1.1, 1.1);
-} */
 
 #vidText {
   height: 80px;
   text-align: center;
   margin-top: 60px;
-  
 }
-
