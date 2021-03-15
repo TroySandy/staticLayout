@@ -18,10 +18,22 @@ li {
   margin: auto;
 }
 
+h1{
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+p{
+  font-size: 18pt;
+}
+
 #topBar {
   padding: 5px;
   color: white;
-  max-width: 1800px;
+ max-width: 1800px;
   background-color: rgba(85, 121, 119, 0.55);
   position: sticky;
   top: 0%;
@@ -30,11 +42,15 @@ li {
   font-size: 16px;
   font-style: bold;
   z-index: 1;
-  
+}
+#topBar p{
+  font-size: 12pt;
 }
 
 #internalLinks {
   position: relative;
+  float: right;
+  
   margin-right: 5px;
   padding: 5px 0px 0px 0px;
 }
@@ -52,7 +68,6 @@ li {
 
 .downChevron {
   height: 10px;
-  
 }
 
 a:link,
@@ -77,7 +92,7 @@ a:active {
   display: inline-block;
 }
 
-.dropdownHidden{
+.dropdownHidden {
   visibility: hidden;
 }
 
@@ -112,7 +127,7 @@ a:active {
 }
 
 #prpGeo {
-  height: 800px;
+  height: 900px;
   width: 100%;
   background-image: url(staticAssests/gradient-violet-bg.jpg);
   display: block;
@@ -136,17 +151,20 @@ a:active {
 #textBox1 {
   color: white;
   margin: auto;
-  width: 30%;
+  min-width: 560px;
+  font-size: 20px;
   padding: 10px;
 }
+
 
 #whiteSection {
   text-align: center;
   margin: auto;
+  
 }
 
 #feature {
-  font-size: 18px;
+  font-size: 24px;
   color: #434146;
 }
 
@@ -156,24 +174,18 @@ a:active {
   grid-gap: 80px 140px;
   width: 80%;
   margin: auto;
- justify-content: center;
+  justify-content: center;
 }
-
-/* .logoGridItem {
-} */
 
 #greenSection {
   background-image: url(staticAssests/green-bg.jpg);
   height: 600px;
   width: 100%;
-  
 }
-#greenSectionText{
-  
+#greenSectionText {
   color: white;
   text-align: center;
   min-width: 700px;
-  
 }
 
 #whiteSection2 {
@@ -186,13 +198,17 @@ a:active {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  /* transition-property: ; */
-  /* transform: scale(1.1, 1.1); */
+  font-size: 18pt;
+  color: white;
 }
 
-/* .orangeButton:hover{
-  background-color: white;
-} */
+.orangeButton:hover {
+  font-size: 20pt;
+}
+
+.clearButton:hover {
+  font-size: 20pt;
+}
 
 .clearButton {
   background-color: transparent;
@@ -207,10 +223,10 @@ a:active {
   transform: scale(1.1, 1.1);
 } */
 
-#vidText{
+#vidText {
   height: 80px;
   text-align: center;
   margin-top: 60px;
-  font-size: 18px;
-  font-weight: bold;
+  
 }
+
