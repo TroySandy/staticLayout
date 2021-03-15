@@ -29,7 +29,7 @@ p {
   font-size: 18pt;
 }
 
-#topBar {
+#topBar { 
   padding: 5px;
   color: white;
   width: 100%;
@@ -76,34 +76,33 @@ a:active {
   color: inherit;
 }
 
-/* Dropdown Box code learned from W3Schools and adapted for my use */
-.dropbtn {
-  padding: 16px;
+.downButton {
+  padding: 15px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   background-color: transparent;
 }
 
-.dropdown {
+.dropMenu {
   position: relative;
   display: inline-block;
 }
 
-.dropdownHidden {
+.dropMenuHidden {
   visibility: hidden;
 }
 
-.dropdown-content {
+.dropMenuContent {
   display: none;
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropMenuContent a {
   color: rgb(167, 167, 167);
   padding: 12px 16px;
   text-decoration: none;
@@ -111,16 +110,16 @@ a:active {
   font-size: 12pt;
 }
 
-.dropdown-content a:hover {
+.dropMenuContent a:hover {
   background-color: transparent;
 }
 
-.dropdown:hover .dropdown-content {
+.dropMenu:hover .dropMenuContent {
   display: block;
   border: none;
 }
 
-.dropdown:hover .dropbtn {
+.dropMenu:hover .downButton {
   background-color: transparent;
   border: none;
 }
@@ -174,7 +173,7 @@ a:active {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 80px 140px;
-  width: 80%;
+  max-width: 1100px;
   margin: auto;
   justify-content: center;
 }
