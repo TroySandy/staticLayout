@@ -130,6 +130,7 @@ a:active {
   height: 900px;
   width: 100%;
   background-image: url(staticAssests/gradient-violet-bg.jpg);
+  background-repeat: no-repeat;
   display: block;
   margin-top: -80px;
   text-align: center;
@@ -179,6 +180,7 @@ a:active {
 
 #greenSection {
   background-image: url(staticAssests/green-bg.jpg);
+  background-repeat: no-repeat;
   height: 600px;
   width: 100%;
 }
