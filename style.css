@@ -213,10 +213,12 @@ a:active {
 
 .orangeButton:hover {
   font-size: 19pt;
+  transition-duration: 0.5s;
 }
 
 .clearButton:hover {
   font-size: 11pt;
+  transition-duration: 0.5s;
 }
 
 .clearButton {
